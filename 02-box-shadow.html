@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Shadow</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="box-shadow.css" />
+    <style>
+      .box5 {
+        height: 200px;
+        width: 300px;
+        text-align: center;
+        box-shadow: 
+        0 -5px red /*Atas*/, 
+        5px 0 orange /*Kanan*/, 
+        0 5px blue /*Bawah*/, 
+        -5px 0 green /*Kiri*/;
+        margin-bottom: 30px 
+      }
+
+      .box6 {
+        height: 200px;
+        width: 300px;
+        text-align: center;
+        box-shadow: 
+        0 -5px 5px 2px red /*Atas*/, 
+        5px 0 5px orange /*Kanan*/, 
+        0 5px 5px  blue /*Bawah*/, 
+        -5px 0 5px green /*Kiri*/;
+
+        ;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- <div class="box1 border">Kotak 1</div>
+        <div class="box2 border">Kotak 2</div>
+        <div class="box3 border">Kotak 3</div> 
+        <div class="box4">Kotak 4</div>
+        -->
+      <div class="box5">Kotak 5</div>
+      <div class="box6">Kotak 6</div>
+    </div>
+  </body>
+</html>
